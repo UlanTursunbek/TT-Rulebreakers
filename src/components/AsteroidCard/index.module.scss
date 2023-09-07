@@ -1,0 +1,79 @@
+.card {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 8px;
+  width: fit-content;
+}
+
+.date {
+  font-size: 24px;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 32px;
+  word-wrap: break-word;
+}
+
+.info {
+  font-size: 16px;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 40px;
+}
+
+.action {
+  display: grid;
+  grid-template-columns: min-content min-content;
+  gap: 10px;
+  align-items: center;
+}
+
+.danger {
+  font-weight: 400;
+  font-size: 14px;
+  color: #e3e5e5;
+  white-space: nowrap;
+}
+
+.asteroid {
+  width: 36.6px;
+
+  &small {
+    width: 22px;
+  }
+}
+
+.distance {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.sizeInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .link {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  .diameter {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+}

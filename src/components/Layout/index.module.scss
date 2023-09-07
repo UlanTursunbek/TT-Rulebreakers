@@ -1,0 +1,19 @@
+.layout {
+  display: grid;
+  grid-template-rows: 123px auto;
+  height: 100vh;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  background-color: #000;
+}
+
+.content {
+  margin-top: 123px;
+}
