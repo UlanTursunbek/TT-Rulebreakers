@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom'
-import { AboutPage } from 'pages/AboutPage'
-import { CartPage } from 'pages/CartPage'
-import { MainPage } from 'pages/MainPage'
+import { AboutPage } from 'pages/AboutPage/AboutPage'
+import { CartPage } from 'pages/CartPage/CartPage'
+import { MainPage } from 'pages/Main/MainPage'
 
 function App() {
   return (

@@ -43,7 +43,7 @@
     "simple-import-sort/exports": "error",
 
     "no-unused-vars": [
-      "error",
+      "warn",
       {
         "vars": "all",
         "args": "after-used",
