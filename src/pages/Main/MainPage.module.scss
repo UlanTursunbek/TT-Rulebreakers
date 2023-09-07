@@ -1,0 +1,77 @@
+.observe {
+  height: 20px;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  .image {
+    height: 80vh;
+    position: fixed;
+    left: 0;
+    top: 138px;
+    transform: translate(-40%);
+    z-index: 1;
+
+    @media only screen and (max-width: 1024px) {
+      transform: translate(-60%);
+    }
+  }
+
+  .content {
+    display: flex;
+    max-width: 400px;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 5;
+    text-align: left;
+  }
+
+  .cart {
+    position: fixed;
+    z-index: 5;
+
+    bottom: 0;
+
+    @media only screen and (min-width: 768px) {
+      position: fixed;
+      top: 123px;
+      right: 10%;
+    }
+  }
+
+  .title {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    margin: 0;
+    padding: 0 16px;
+  }
+
+  .distanceButton {
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    padding: 0;
+    cursor: pointer;
+  }
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+}
